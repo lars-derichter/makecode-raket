@@ -21,7 +21,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
     info.changeScoreBy(10)
     if (info.score() % 100 == 0) {
         level += 1
-        scene.setBackgroundColor(randint(0, 5))
+        scene.setBackgroundColor(randint(6, 15))
         game.splash("Level up")
     }
 })
